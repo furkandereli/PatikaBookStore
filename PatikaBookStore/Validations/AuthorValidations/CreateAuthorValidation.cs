@@ -3,9 +3,9 @@ using PatikaBookStore.DTOs.AuthorDtos;
 
 namespace PatikaBookStore.Validations.AuthorValidations
 {
-    public class UpdateAuthorValidator : AbstractValidator<UpdateAuthorDto>
+    public class CreateAuthorValidation : AbstractValidator<CreateAuthorDto>
     {
-        public UpdateAuthorValidator()
+        public CreateAuthorValidation()
         {
             RuleFor(a => a.Name)
                 .NotEmpty()
@@ -15,9 +15,6 @@ namespace PatikaBookStore.Validations.AuthorValidations
             RuleFor(a => a.Surname)
                 .NotEmpty()
                 .MinimumLength(2);
-
-            RuleFor(a => a.Id)
-                .NotEmpty();
 
             RuleFor(a => a.BirthDate)
                 .NotEmpty();

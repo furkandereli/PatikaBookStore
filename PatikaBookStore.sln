@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBookStore", "PatikaBookStore\PatikaBookStore.csproj", "{419677E3-71B2-4E7D-BE46-C3A24D33201C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBookStore", "PatikaBookStore\PatikaBookStore.csproj", "{419677E3-71B2-4E7D-BE46-C3A24D33201C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PatikaBookStore.Tests", "PatikaBookStore.Tests", "{C0CA5EC7-1277-4492-B469-39866F967BA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStoreTests", "BookStoreTests\BookStoreTests.csproj", "{BA83254C-67E3-4EC4-B060-623FE7BF7680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{419677E3-71B2-4E7D-BE46-C3A24D33201C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{419677E3-71B2-4E7D-BE46-C3A24D33201C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{419677E3-71B2-4E7D-BE46-C3A24D33201C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA83254C-67E3-4EC4-B060-623FE7BF7680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA83254C-67E3-4EC4-B060-623FE7BF7680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA83254C-67E3-4EC4-B060-623FE7BF7680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA83254C-67E3-4EC4-B060-623FE7BF7680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA83254C-67E3-4EC4-B060-623FE7BF7680} = {C0CA5EC7-1277-4492-B469-39866F967BA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C399251E-8197-43E0-ADF9-F910337245C7}
